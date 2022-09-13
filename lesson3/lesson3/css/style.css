@@ -1,0 +1,57 @@
+div.info1 {
+	color: blueviolet;
+}
+
+.list{
+	color: green;
+}
+
+.info2{
+	color: grey;
+}
+
+.info3{
+	color: brown;
+}
+
+.info4{
+	color: teal;
+}
+
+.info5{
+	color: purple;
+}
+
+#end{
+	color: fuchsia;
+}
+#war *{
+	color: rgb(184, 11, 63);
+}
+#title2 *{
+	color: rgb(52, 36, 143);
+}
+
+#title3 *{
+	color: rgb(192, 136, 14);
+}
+
+#title4 *{
+	color: rgb(24, 169, 206);
+}
+
+#title5 *{
+	color: rgb(7, 231, 119);
+}
+
+.info1 + p {
+	color: rgb(255, 0, 0);
+}
+
+.info2 > p {
+	color: rgb(0, 134, 29);
+}
+
+.info3 ~ p {
+	color: rgb(151, 0, 50);
+}
