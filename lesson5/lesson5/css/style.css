@@ -31,11 +31,9 @@ main p{
 	padding: 16px;
 	width: 700px;
 	text-align: left;
-	margin: 0px 550px;
 }
 img{
 	padding: 16px;
-	margin: 0px 550px;
 }
 h1{
 	padding: 16px;
@@ -93,8 +91,6 @@ li{
 	font-style: italic;
 	padding: 0px 16px;
 	color:rgb(89, 0, 255);
-	margin: 0px 550px;
-	
 }
 
 #video{
