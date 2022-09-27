@@ -55,7 +55,6 @@ margin-bottom: 48px;
 }
 
 li{
-margin-top: 25px;
 margin-bottom: 24px;
 padding-left: 35px;
 }
@@ -133,3 +132,6 @@ main:hover .example4{
 html {
 	scroll-behavior: smooth;
 	}
+.addmarginfix{
+	margin-bottom:24px;
+}
