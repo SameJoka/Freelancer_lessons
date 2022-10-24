@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	margin: 0 auto;
+	max-width: 1230px;
+}
+.block1{
+	width: 1230px;
+	height: 550px;
+	margin-bottom: 200px;
+}
+.blacklato{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 40px;
+	color: #1E212C;
+}
+.boldlato{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 24px;
+	color: #1E212C;
+}
+.blacklato2{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+.senior{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+.corectionposition{
+	width: 600px;
+	height: 156px;
+	margin-bottom: 48px;
+	color: #424551;
+}
+.marker li{
+	background: url('../img/check.svg') 0 5px no-repeat;
+	padding-left: 32px;
+	margin-bottom: 4px;
+}
+.positionmarkers li{
+	color: #424551;
+	margin-bottom: 4px;
+	font-weight: 700;
+}
+.positionmarkers{
+	margin-bottom: 32px;
+}
+.rate{
+	background: url('../img/Star\ \(Stroke\).svg') 0 5px no-repeat;
+	padding-left: 24px;
+}
+.play{
+	background: url('../img/Play.svg') 0 5px no-repeat;
+	padding-left: 24px;
+}
+.students{
+	background: url('../img/Person.svg') 0 5px no-repeat;
+	padding-left: 24px;
+}
+.practice{
+	margin-bottom: 120px;
+}
+.specification{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+.corectionlasttitle{
+	width: 600px;
+	height: 156px;
+}
+.experemental{
+	width: 100%;
+	height: 50px;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	background: rgb(253,246,51);
+	background: linear-gradient(90deg, rgba(253,246,51,1) 33%, rgba(207,11,214,1) 66%, rgba(112,36,230,1) 99%);
+}
+.link{
+	background: rgb(253,51,51);
+	background: linear-gradient(90deg, rgba(253,51,51,1) 30%, rgba(214,113,11,1) 60%, rgba(230,218,36,1) 90%);
+	height: 70px;
+	width: 100%;
+	border-radius: 50px;
+	font-size: 24px;
+	padding: 16px;
+}
+.link a:hover{
+	color: rgb(255, 255, 255);
+}
+.link:hover{
+	background: rgb(67,51,253);
+	background: linear-gradient(90deg, rgba(67,51,253,1) 30%, rgba(130,11,214,1) 60%, rgba(228,36,230,1) 90%);
+}
+.link1{
+	background-color: greenyellow;
+	height: 70px;
+	width: 100%;
+	border-radius: 50px;
+	font-size: 24px;
+	padding: 16px;
+	color: rgb(0, 0, 0);
+}
+.link1:active{
+	color: purple;
+	background-color: darkgreen;
+}
+.link2{
+	background-color: rgb(179, 179, 185);
+	height: 80px;
+	width: 100%;
+	border-radius: 50px;
+	font-size: 24px;
+	padding: 16px;
+	color: rgb(0, 0, 0);
+}
+.link2 a:visited{
+	color: rgb(190, 0, 0);
+}
+.link3{
+	background-color: chocolate;
+	border-radius: 50px;
+	padding: 30px;
+}
+.link3 ul ul{
+	background-color: aquamarine;
+	border-radius: 50px;
+	padding-left: 50px;
+	display: none;
+}
+.link3 ul li:hover ul{
+	display: block;
+}
+.link4{
+	background-color: cornflowerblue;
+	border-radius: 50px;
+	padding: 30px;
+}
+.link4 ul ul{
+	background-color: darkcyan;
+	border-radius: 50px;
+	max-width: 200px;
+	display: none;
+	padding-left: 24px;
+}
+.link4 ul a:hover + ul{
+	display: block;
+}
+.link5{
+	background-color: rgb(9, 192, 216);
+	height: 70px;
+	width: 100%;
+	border-radius: 50px;
+	font-size: 24px;
+	padding: 16px;
+	color: rgb(0, 0, 0);
+	border: 2px dashed whitesmoke;
+}
+.link5 a:focus {
+	outline-width: 5px;
+	outline-style: dashed;
+	outline-color: #1a6403;
+}
+.link6{
+	background-color: rgb(9, 192, 216);
+	height: 90px;
+	width: 100%;
+	border-radius: 50px;
+	font-size: 24px;
+	padding: 16px;
+	color: rgb(0, 0, 0);
+	border: 2px dotted whitesmoke;
+}
+.link7{
+	background-color: rgb(1, 192, 87);
+	width: 1230px;
+	height: 120px;
+	border-radius: 50px;
+	font-size: 24px;
+	padding: 16px;
+	color: rgb(255, 255, 255);
+	display: none;
+}
+.link7:target{
+	display: block;
+}
+.block{
+	background-color: rgb(0, 228, 152);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block p{
+	margin-bottom: 24px;
+}
+.block p:first-child{
+	color:darkmagenta;
+}
+.block3{
+	background-color: rgb(174, 247, 3);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block3 p{
+	margin-bottom: 24px;
+}
+.block3 p:last-child{
+	color:rgb(226, 11, 226);
+}
+.block4{
+	background-color: rgb(0, 153, 255);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block4 p{
+	margin-bottom: 24px;
+}
+.block4 p:first-of-type{
+	color:rgb(221, 47, 3);
+}
+.block5{
+	background-color: rgb(2, 21, 34);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block5 p{
+	margin-bottom: 24px;
+}
+.block5 p:last-of-type{
+	color:rgb(97, 94, 94);
+}
+.block6{
+	background-color: rgb(189, 154, 178);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block6 p{
+	margin-bottom: 24px;
+}
+.block6 p:nth-child(4){
+	color:rgb(39, 11, 11);
+}
+.block7{
+	background-color: rgb(100, 20, 165);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block7 p{
+	margin-bottom: 24px;
+}
+.block7 p:nth-child(odd){
+	color:rgb(195, 207, 22);
+}
+.block8{
+	background-color: rgb(204, 158, 7);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block8 p{
+	margin-bottom: 24px;
+}
+.block8 p:nth-child(even){
+	color:rgb(126, 9, 221);
+}
+.block9{
+	background-color: rgb(11, 219, 139);
+	font-size: 24px;
+	border-radius: 50px;
+	color: #fff;
+	padding: 16px;
+}
+.block9 p{
+	margin-bottom: 24px;
+}
+.block9 p:not(:last-child){
+	margin-bottom: 50px;
+}
+.testlist ul{
+	margin-left: 36px;
+}
+.testlist ul li:not(:last-child){
+	margin-bottom: 0px;
+}
+.marker1 li::before{
+	content: '';
+	background: url('../img/Play.svg') 0 0 no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 16px;
+}
+.marker1 li:hover::before{
+transition: all 0.3s ease 0.3s;
+transform: scale(1.5);
+}
+.marker1 li::after{
+	content: '';
+	background: url('../img/check.svg') 0 0 no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.marker1 li:hover::after{
+	transition: all 0.3s ease 0.3s;
+	transform: rotate(-360deg);
+}
+ol{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	counter-reset: item;
+}
+ol li::before{
+	counter-increment: item;
+	content: '('counter(item) '.) ';
+	display: inline-block;
+	margin-right: 5px;
+	color: rgb(0, 255, 64);
+}
+ol li:not(:last-child){
+	margin-bottom: 10px;
+}
+.globalboxgame{
+	width: 1200px;
+	height: 600px;
+	background-color: #1E212C;
+}
+.teststartgame1{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(221, 9, 9);
+}
+.testgame-2{
+	width: 170px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 50px;
+   margin-top: -36px;
+}
+.testgame-3{
+	height: 100px;
+   width: 25px;
+   margin-left: 195px;
+   background-color: #fff;
+}
+.testgame-4{
+	width: 170px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 50px;
+   margin-top: -25px;
+}
+.testgame-5{
+	height: 100px;
+   width: 25px;
+   margin-left: 50px;
+   background-color: #fff;
+}
+.testgame-6{
+	width: 200px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 50px;
+   margin-top: -25px;
+}
+.testgame-7{
+	height: 100px;
+   width: 25px;
+   margin-left: 250px;
+   background-color: #fff;
+	margin-top: -100px;
+}
+.testgame-8{
+	width: 200px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 250px;
+   margin-top: -100px;
+}
+.testgame-9{
+	height: 250px;
+   width: 25px;
+   margin-left: 425px;
+   background-color: #fff;
+}
+.testgame-10{
+	width: 400px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 50px;
+   margin-top: -25px;
+}
+.testgame-11{
+	height: 50px;
+   width: 25px;
+   margin-left: 50px;
+   background-color: #fff;
+}
+.testgame-12{
+	width: 500px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 50px;
+   margin-top: -25px;
+}
+.testgame-13{
+	height: 100px;
+   width: 25px;
+   margin-left: 550px;
+   background-color: #fff;
+	margin-top: -25px;
+}
+.testgame-14{
+	width: 170px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 550px;
+   margin-top: -25px;
+}
+.testgame-15{
+	height: 400px;
+   width: 25px;
+   margin-left: 700px;
+   background-color: #fff;
+	margin-top: -400px;
+}
+.testgame-16{
+	width: 400px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 700px;
+   margin-top: -400px;
+}
+.testgame-17{
+	height: 100px;
+   width: 25px;
+   margin-left: 1100px;
+	margin-top: -25px;
+   background-color: #fff;
+}
+.testgame-18{
+	width: 300px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 800px;
+   margin-top: -25px;
+}
+.testgame-19{
+	height: 360px;
+   width: 25px;
+   margin-left: 800px;
+   background-color: #fff;
+	margin-top: -25px;
+}
+.testgame-20{
+	width: 350px;
+   height: 25px;
+   background-color: #fff;
+   margin-left: 800px;
+   margin-top: -15px;
+}
+.testgame-21{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(4, 0, 255);
+	margin-top: -34px;
+	margin-left: 1150px;
+}
+.globalboxgame .testgame-21:hover{
+	background-color: yellow;
+}
+[class*="testgame"] {
+   visibility: hidden;
+}
+
+.teststartgame1:hover + .testgame-2,
+.testgame-2:hover {
+   visibility: visible;
+}
+
+.testgame-2:hover + .testgame-3, 
+.testgame-3:hover{
+   visibility: visible;
+}
+
+.testgame-3:hover + .testgame-4, 
+.testgame-4:hover{
+   visibility: visible;
+}
+
+.testgame-4:hover + .testgame-5, 
+.testgame-5:hover{
+   visibility: visible;
+}
+
+.testgame-5:hover + .testgame-6, 
+.testgame-6:hover{
+   visibility: visible;
+}
+.testgame-6:hover + .testgame-7, 
+.testgame-7:hover{
+   visibility: visible;
+}
+.testgame-7:hover + .testgame-8, 
+.testgame-8:hover{
+   visibility: visible;
+}
+.testgame-8:hover + .testgame-9, 
+.testgame-9:hover{
+   visibility: visible;
+}
+.testgame-9:hover + .testgame-10, 
+.testgame-10:hover{
+   visibility: visible;
+}
+.testgame-10:hover + .testgame-11, 
+.testgame-11:hover{
+   visibility: visible;
+}
+.testgame-11:hover + .testgame-12, 
+.testgame-12:hover{
+   visibility: visible;
+}
+.testgame-12:hover + .testgame-13, 
+.testgame-13:hover{
+   visibility: visible;
+}
+.testgame-13:hover + .testgame-14, 
+.testgame-14:hover{
+   visibility: visible;
+}
+.testgame-14:hover + .testgame-15, 
+.testgame-15:hover{
+   visibility: visible;
+}
+.testgame-15:hover + .testgame-16, 
+.testgame-16:hover{
+   visibility: visible;
+}
+.testgame-16:hover + .testgame-17, 
+.testgame-17:hover{
+   visibility: visible;
+}
+.testgame-17:hover + .testgame-18, 
+.testgame-18:hover{
+   visibility: visible;
+}
+.testgame-18:hover + .testgame-19, 
+.testgame-19:hover{
+   visibility: visible;
+}
+.testgame-19:hover + .testgame-20, 
+.testgame-20:hover{
+   visibility: visible;
+}
+.testgame-20:hover + .testgame-21, 
+.testgame-21:hover{
+   visibility: visible;
+}
+.end{
+	background-color: rgb(32, 37, 24);
+	color: aliceblue;
+	width: 1230px;
+	height: 300px;
+	font-size: 24px;
+	padding: 16px;
+	border-radius: 50px;
+}
+.end>*:last-child{
+	margin-bottom: 0px;
+}
+
+.start1{
+	background-color: darkseagreen;
+	font-size: 24px;
+	color:aliceblue;
+	border-radius: 50px;
+	padding: 20px;
+}
+.start2{
+	background-color: rgb(17, 66, 17);
+	font-size: 24px;
+	color:aliceblue;
+	border-radius: 50px;
+	padding: 20px;
+}
