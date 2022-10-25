@@ -60,6 +60,9 @@ body{
 	padding-left: 32px;
 	margin-bottom: 4px;
 }
+.marker>*:last-child{
+	margin-bottom: 0px;
+}
 .positionmarkers li{
 	color: #424551;
 	margin-bottom: 4px;
@@ -79,6 +82,9 @@ body{
 .students{
 	background: url('../img/Person.svg') 0 5px no-repeat;
 	padding-left: 24px;
+}
+.positionmarkers>*:last-child{
+	margin-bottom: 0px;
 }
 .practice{
 	margin-bottom: 120px;
@@ -174,6 +180,9 @@ body{
 	display: none;
 	padding-left: 24px;
 }
+.link4 ul li:hover ul{
+	display: block;
+}
 .link4 ul a:hover + ul{
 	display: block;
 }
@@ -194,13 +203,16 @@ body{
 }
 .link6{
 	background-color: rgb(9, 192, 216);
-	height: 90px;
+	height: 80px;
 	width: 100%;
 	border-radius: 50px;
 	font-size: 24px;
 	padding: 16px;
 	color: rgb(0, 0, 0);
 	border: 2px dotted whitesmoke;
+}
+.link6>*:last-child{
+	margin-bottom: 0px;
 }
 .link7{
 	background-color: rgb(1, 192, 87);
@@ -211,6 +223,9 @@ body{
 	padding: 16px;
 	color: rgb(255, 255, 255);
 	display: none;
+}
+.link7>*:last-child{
+	margin-bottom: 0px;
 }
 .link7:target{
 	display: block;
@@ -228,6 +243,9 @@ body{
 .block p:first-child{
 	color:darkmagenta;
 }
+.block>*:last-child{
+	margin-bottom: 0px;
+}
 .block3{
 	background-color: rgb(174, 247, 3);
 	font-size: 24px;
@@ -240,6 +258,9 @@ body{
 }
 .block3 p:last-child{
 	color:rgb(226, 11, 226);
+}
+.block3>*:last-child{
+	margin-bottom: 0px;
 }
 .block4{
 	background-color: rgb(0, 153, 255);
@@ -254,6 +275,9 @@ body{
 .block4 p:first-of-type{
 	color:rgb(221, 47, 3);
 }
+.block4>*:last-child{
+	margin-bottom: 0px;
+}
 .block5{
 	background-color: rgb(2, 21, 34);
 	font-size: 24px;
@@ -266,6 +290,9 @@ body{
 }
 .block5 p:last-of-type{
 	color:rgb(97, 94, 94);
+}
+.block5>*:last-child{
+	margin-bottom: 0px;
 }
 .block6{
 	background-color: rgb(189, 154, 178);
@@ -280,6 +307,9 @@ body{
 .block6 p:nth-child(4){
 	color:rgb(39, 11, 11);
 }
+.block6>*:last-child{
+	margin-bottom: 0px;
+}
 .block7{
 	background-color: rgb(100, 20, 165);
 	font-size: 24px;
@@ -292,6 +322,9 @@ body{
 }
 .block7 p:nth-child(odd){
 	color:rgb(195, 207, 22);
+}
+.block7>*:last-child{
+	margin-bottom: 0px;
 }
 .block8{
 	background-color: rgb(204, 158, 7);
@@ -306,6 +339,9 @@ body{
 .block8 p:nth-child(even){
 	color:rgb(126, 9, 221);
 }
+.block8>*:last-child{
+	margin-bottom: 0px;
+}
 .block9{
 	background-color: rgb(11, 219, 139);
 	font-size: 24px;
@@ -313,14 +349,14 @@ body{
 	color: #fff;
 	padding: 16px;
 }
-.block9 p{
-	margin-bottom: 24px;
-}
 .block9 p:not(:last-child){
-	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+.block9>*:last-child{
+	margin-bottom: 0px;
 }
 .testlist ul{
-	margin-left: 36px;
+	padding-left: 36px;
 }
 .testlist ul li:not(:last-child){
 	margin-bottom: 0px;
@@ -349,19 +385,22 @@ transform: scale(1.5);
 	transform: rotate(-360deg);
 }
 ol{
-	margin-left: 20px;
-	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
 	counter-reset: item;
 }
 ol li::before{
 	counter-increment: item;
 	content: '('counter(item) '.) ';
 	display: inline-block;
-	margin-right: 5px;
+	padding-right: 5px;
 	color: rgb(0, 255, 64);
 }
 ol li:not(:last-child){
 	margin-bottom: 10px;
+}
+.testfix>*:last-child{
+	margin-bottom: 0px;
 }
 .globalboxgame{
 	width: 1200px;
