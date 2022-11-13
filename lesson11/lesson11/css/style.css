@@ -1,0 +1,379 @@
+body{
+	font-family: arial, 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: darkgrey;
+}
+
+.header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 4%;
+	width: 100%;
+	background-color: rgb(17, 240, 136);
+	color: floralwhite;
+	z-index: 100;
+}
+
+.wrapper{
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.items1{
+	padding: 32px;
+}
+.items1__item{
+	padding: 15px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+.items__item--brown{
+	background-color: brown;
+}
+
+.items__item--green{
+	background-color: green;
+	position: static;
+	top: 321px; /*static значення за замовченням і тому значення типу top,bottom працювати не буде*/
+}
+
+.items__item--pink{
+	background-color: pink;
+}
+
+.items2__item{
+	padding: 15px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+.items__item--yellow{
+	background-color: yellow;
+}
+
+.items__item--red{
+	background-color: red;
+	position: relative;/*relative значення яке дозволяє вказувати куди саме перетягнути елемент, можна нахімічити!обірежно) зберігає за собою місце об*єкту!*/
+	bottom: 36px; 
+}
+
+.items__item--blue{
+	background-color: blue;
+}
+
+.items3__item{
+	padding: 15px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+.items__item--orange{
+	background-color: orange;
+	position: relative;
+	bottom: 16px;
+}
+
+.items__item--greenyellow{
+	background-color: greenyellow;
+	position: relative;
+	bottom: 26px;
+}
+
+.items__item--tomato{
+	background-color: tomato;
+	position: relative;
+	bottom: 36px;
+}
+
+.items4__item{
+	padding: 15px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+.items__item--turquoise{
+	background-color: turquoise;
+	position: relative;
+	bottom: 16px;
+}
+
+.items__item--indianred{
+	background-color: indianred;
+	position: relative;
+	bottom: 26px;
+	z-index: 999;
+}
+
+.items__item--indigo{
+	background-color: indigo;
+	position: relative;
+	bottom: 36px;
+}
+
+.items5{
+	padding: 30px;
+	background-color: rgb(109, 109, 5);
+	position: relative;
+}
+.items5__item{
+	padding: 15px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+.items__item--aquamarine{
+	background-color:aquamarine;
+}
+
+.items__item--aqua{
+	background-color: aqua;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.items__item--salmon{
+	background-color: salmon;
+}
+
+.items6{
+	padding: 30px;
+}
+.items6__item{
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	position: relative;
+}
+
+.items__item--saddlebrown{
+	background-color:saddlebrown;
+	position: relative;
+	z-index: 6;
+	opacity: 0.5;
+}
+
+.items__item--slateblue{
+	background-color: slateblue;
+}
+
+.items__item--seagreen{
+	background-color: seagreen;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.items7{
+	padding: 30px;
+}
+.items7__item{
+	padding: 30px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	position: relative;
+}
+
+.items__item--darkcyan{
+	background-color:darkcyan;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.items__item--darkgoldenrod{
+	background-color: darkgoldenrod;
+}
+
+.items__item--darkgreen{
+	background-color: darkgreen;
+}
+
+.items8{
+	width: 100%;
+	padding: 36px;
+	background-color: cadetblue;
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.items8__item{
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+.items__item--darkviolet{
+	background-color:darkviolet;
+	position: absolute;
+
+	top: 10px;
+	right: -300px;
+	width: 100%;
+}
+
+.items__item--deepskyblue{
+	background-color: deepskyblue;
+}
+
+.items__item--deeppink{
+	background-color: deeppink;
+}
+
+.items9{
+	background-color: cadetblue;
+}
+
+.items9__item{
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	position: relative;
+}
+
+.items__item--darkslateblue{
+	background-color:darkslateblue;
+}
+
+.items__item--darkseagreen{
+	background-color:darkseagreen;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+.items__item--darksalmon{
+	background-color: darksalmon;
+}
+
+.items10{
+	background-color: forestgreen;
+	padding: 30px;
+	
+}
+
+.items10__item{
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	padding: 30px;
+	height: 600px;
+}
+
+.items__item--dodgerblue{
+	background-color:dodgerblue;
+	position: sticky;
+	top: 20px;
+}
+
+.items__item--fuchsia{
+	background-color:fuchsia;
+
+}
+
+.items__item--hotpink{
+	background-color:hotpink;
+}
+
+.items11{
+	background-color: gray;
+	padding: 30px;
+	
+}
+
+.items11__item{
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	padding: 30px;
+
+}
+
+.items__item--khaki{
+	background-color:khaki;
+	position: relative;
+	top: 1%;
+	left: -10%;
+}
+
+.items__item--limegreen{
+	background-color:limegreen;
+	position: relative;
+	top: 1%;
+	left: -20%;
+}
+
+.items__item--lightseagreen{
+	background-color:lightseagreen;
+	position: relative;
+	top: 1%;
+	left: -30%;
+}
+
+.image{
+	border: 5px solid black;
+	overflow: hidden;
+	background: url('../img/sky.jpg') 0 0/auto 100% no-repeat;
+	width: 1400px;
+	height: 600px;
+}
+.image__item{
+	position: relative;
+}
+
+.image__item--sky{
+	background: url('../img/sky.jpg') 0 0/auto 100% no-repeat;
+}
+
+.image__item--road{
+	position: relative;
+	top: 400px;
+	left: 0px;
+}
+
+.image__item--city{
+	position: absolute;
+	z-index: 22;
+	top: 90px;
+	left: 0;
+}
+
+.image__item--car{
+	position: absolute;
+	z-index: 23;
+	top: 290px;
+	left: 330px;
+}
+
+.image__item--wheel{
+	position: absolute;
+	z-index: 25;
+	top: 420px;
+	left: 980px;
+}
+
+.image__item1--wheel{
+	position: absolute;
+	z-index: 26;
+	top: 425px;
+	left: 446px;
+}
+
+.truh{
+	background-color: rgb(24, 23, 23);
+	width: 100%;
+	height: 600px;
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 36px;
+}
