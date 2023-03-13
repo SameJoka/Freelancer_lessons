@@ -196,7 +196,7 @@ color: #FF3F3A;
 }
 
 .transbutton-one{
-	background: transparent url('../img/Leftgrey.svg') center no-repeat;
+	background: transparent url('../img/icons/Leftgrey.svg') center no-repeat;
 	flex: 0 0 48px;
 	width: 48px;
 	height: 48px;
@@ -204,7 +204,7 @@ color: #FF3F3A;
 }
 
 .transbutton-one:hover{
-	background: #FF3F3A url('../img/Leftwhite.svg') center no-repeat;
+	background: #FF3F3A url('../img/icons/Leftwhite.svg') center no-repeat;
 	flex: 0 0 48px;
 	width: 48px;
 	height: 48px;
@@ -230,7 +230,7 @@ color: #FF3F3A;
 }
 
 .transbutton-two{
-	background: transparent url('../img/Rightgrey.svg') center no-repeat;
+	background: transparent url('../img/icons/Rightgrey.svg') center no-repeat;
 	flex: 0 0 48px;
 	width: 48px;
 	height: 48px;
@@ -238,7 +238,7 @@ color: #FF3F3A;
 }
 
 .transbutton-two:hover{
-	background: #FF3F3A url('../img/Rightwhite.svg') center no-repeat;
+	background: #FF3F3A url('../img/icons/Rightwhite.svg') center no-repeat;
 	flex: 0 0 48px;
 	width: 48px;
 	height: 48px;
